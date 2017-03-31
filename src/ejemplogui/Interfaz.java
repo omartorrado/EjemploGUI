@@ -68,7 +68,13 @@ public class Interfaz {
         buttonBot2.setBounds(450,200,200,50);
         //Le damos los valores a la lista y el combobox
         String[] coloresListBot1={"Verde","Amarillo","Blanco","Rojo","Marron"};
-        listBot1.setListData(coloresListBot1);       
+        listBot1.setListData(coloresListBot1);
+        //Como añadir al ComboBox elementos desde un array, creo k hay k hacerlo elemento a elemento
+        /*
+        for(String s:arbolesComboBot1){
+        comboBot1.addItem(s);
+        }
+        */
         //Añadimos los componentes al panel Top
         pTop.add(labelTop1);
         pTop.add(textTop1);
